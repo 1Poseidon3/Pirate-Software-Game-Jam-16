@@ -3,8 +3,10 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Movement Settings")]
     [SerializeField] private float speed = 5f;
     [SerializeField] private float rotationSpeed = 360f;
+
     private Vector2 movement;
     private CharacterController controller;
     private InputSystem_Actions input;

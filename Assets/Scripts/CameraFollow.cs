@@ -3,13 +3,13 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     [Header("Camera Follow Settings")]
-    [SerializeField] private Transform player; // Reference to the player
-    [SerializeField] private Vector3 offset = new(0, 10, -5); // Offset for the camera position
-    [SerializeField] private float smoothSpeed = 0.125f; // Smoothness of camera movement
+    [SerializeField] private Transform player;
+    [SerializeField] private Vector3 offset = new(0, 10, -5);
+    [SerializeField] private float smoothSpeed = 0.125f;
 
     [Header("Camera Bounds Settings")]
-    [SerializeField] private bool useBounds = false; // Enable/disable bounds
-    [SerializeField] private Vector2 minBounds, maxBounds; // Camera bounds for X and Z axes
+    [SerializeField] private bool useBounds = false;
+    [SerializeField] private Vector2 minBounds, maxBounds;
 
     private void LateUpdate()
     {
