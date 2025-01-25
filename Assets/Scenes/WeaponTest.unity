@@ -768,6 +768,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 572173696185628380, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: WeaponDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 605152890189389310, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: WeaponDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175873213673434500, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744739295782558690, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5098148302705007242, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5465730639869395672, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: baseKnockback
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6004498800183014979, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -808,9 +832,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6246583974370216931, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: PlayerHealthBase
+      objectReference: {fileID: 0}
+    - target: {fileID: 7276364155885763171, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7635181862380164761, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8090374782223700306, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: WeaponDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8592803330151090620, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: WeaponDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8664705475113340794, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_TagString
+      value: WeaponDamage
+      objectReference: {fileID: 0}
+    - target: {fileID: 8883883613582914299, guid: 603cf20d00b82824ab812ebd68836db1, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
